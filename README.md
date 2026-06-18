@@ -40,7 +40,7 @@ The classified maps illustrate the baseline distribution of dense vegetation, sp
 ### 2. NDVI Vegetation Index & Landscape Greenness
 The Normalized Difference Vegetation Index (NDVI) profiles highlight density changes in the canopy layer, validating the areas of forest recovery observed within the Chure range intervals.
 
-![NDVI Analysis Maps](./NDVI Bagmati.png)
+![NDVI Analysis Maps](https://github.com/Missionbhattarai/Bagmati-NDVI_LULC-analysis/blob/main/NDVI%20Bagmati.png)
 
 ---
 
