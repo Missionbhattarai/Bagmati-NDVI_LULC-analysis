@@ -1,23 +1,23 @@
 # 🌍 Bagmati River Corridor LULC Change Analysis (2015–2024)
 
-## 📌 Project Overview
+## Project Overview
 This project maps and analyzes land cover changes over a 9-year period (2015–2024) across the Bagmati River watershed in Nepal (~3,750 km²), stretching from Kathmandu down to Rautahat. This vital corridor faces intense, simultaneous pressure from rapid urban expansion, agricultural transformations, and climate-driven hydrological shifts.
 
 Using **Google Earth Engine (GEE)** and **QGIS**, this pipeline processes dry-season Landsat 8 (2015) and Landsat 9 (2024) surface reflectance composites. A Random Forest classifier categorizes the landscape into four distinct land cover types to accurately quantify environmental dynamics.
 
 ---
 
-## 📊 Key Findings & Summary
-* **🌲 Forest Recovery (+117.8 km²):** Sparse vegetation recovered to dense forest, indicating positive landscape conservation and active reforestation initiatives, particularly along parts of the Chure range.
-* **⚠️ Forest Degradation (-69.6 km²):** Dense forest tracks degraded into sparse or fragmented vegetation.
-* **🏗️ Urban Expansion (+70.3 km²):** Agricultural land and sparse areas were converted into built-up infrastructure, reflecting the heavy urbanization footprint of the corridor.
-* **💧 Hydrological Shifts:** Major channel migrations and floodplain variations were captured in the southern Terai region.
+## Key Findings & Summary
+* **Forest Recovery (+117.8 km²):** Sparse vegetation recovered to dense forest, indicating positive landscape conservation and active reforestation initiatives, particularly along parts of the Chure range.
+* **Forest Degradation (-69.6 km²):** Dense forest tracks degraded into sparse or fragmented vegetation.
+* **Urban Expansion (+70.3 km²):** Agricultural land and sparse areas were converted into built-up infrastructure, reflecting the heavy urbanization footprint of the corridor.
+* **Hydrological Shifts:** Major channel migrations and floodplain variations were captured in the southern Terai region.
 
 ![Work Summary](https://github.com/Missionbhattarai/Bagmati-NDVI_LULC-analysis/blob/main/Work%20summary%20Bagmati%20Corridor.png)
 
 ---
 
-## 🛠️ Methodology & Technical Features
+## Methodology & Technical Features
 To achieve an **Overall Accuracy of ~84%** across both epochs, this workflow implements several advanced remote sensing techniques:
 
 1. **Automated Training Pipelines:** Replaced traditional, tedious manual digitization by extracting a reproducible 600-sample training set directly from **ESA WorldCover 2021** using stratified random sampling.
@@ -30,7 +30,7 @@ To achieve an **Overall Accuracy of ~84%** across both epochs, this workflow imp
 
 ---
 
-## 🗺️ Spatial Visualizations
+## Spatial Visualizations
 
 ### 1. Land Use / Land Cover Classification (2015 vs. 2024)
 The classified maps illustrate the baseline distribution of dense vegetation, sparse vegetation, built-up areas, and water bodies across the watershed, pinpointing heavy urban growth around the valley floor and agricultural zones.
@@ -44,7 +44,7 @@ The Normalized Difference Vegetation Index (NDVI) profiles highlight density cha
 
 ---
 
-## 📈 Interactive Transition Modeling (Sankey Diagram)
+## Interactive Transition Modeling (Sankey Diagram)
 To ensure absolute mathematical consistency, an exact land cover transition matrix was computed for all cloud-free, unmasked pixels present across both study years. 
 
 Instead of dealing with static mismatching graphics, the transitions are modeled programmatically. The logic aggregates specific trajectory values (e.g., Dense Forest to Built-up) to yield an internally consistent flow network.
@@ -61,4 +61,4 @@ Instead of dealing with static mismatching graphics, the transitions are modeled
 * `NDVI Bagmati.png` : Visual comparative maps of vegetation index performance across the watershed corridor.
 
 ---
-*Developed as part of an advanced geospatial analysis portfolio series.*
+*Developed as part of an advanced geospatial analysis series.*
