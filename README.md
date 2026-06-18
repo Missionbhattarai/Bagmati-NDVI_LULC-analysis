@@ -13,7 +13,7 @@ Using **Google Earth Engine (GEE)** and **QGIS**, this pipeline processes dry-se
 * **🏗️ Urban Expansion (+70.3 km²):** Agricultural land and sparse areas were converted into built-up infrastructure, reflecting the heavy urbanization footprint of the corridor.
 * **💧 Hydrological Shifts:** Major channel migrations and floodplain variations were captured in the southern Terai region.
 
-![Work Summary](./Work summary Bagmati Corridor.png)
+![Work Summary](https://github.com/Missionbhattarai/Bagmati-NDVI_LULC-analysis/blob/main/Work%20summary%20Bagmati%20Corridor.png)
 
 ---
 
@@ -35,7 +35,7 @@ To achieve an **Overall Accuracy of ~84%** across both epochs, this workflow imp
 ### 1. Land Use / Land Cover Classification (2015 vs. 2024)
 The classified maps illustrate the baseline distribution of dense vegetation, sparse vegetation, built-up areas, and water bodies across the watershed, pinpointing heavy urban growth around the valley floor and agricultural zones.
 
-![LULC Classification Maps]([./LULC Bagmati.jpg](https://github.com/Missionbhattarai/Bagmati-NDVI_LULC-analysis/blob/main/LULC%20Bagmati.png))
+![LULC Classification Maps](https://github.com/Missionbhattarai/Bagmati-NDVI_LULC-analysis/blob/main/LULC%20Bagmati.png)
 
 ### 2. NDVI Vegetation Index & Landscape Greenness
 The Normalized Difference Vegetation Index (NDVI) profiles highlight density changes in the canopy layer, validating the areas of forest recovery observed within the Chure range intervals.
