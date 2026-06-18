@@ -1,4 +1,4 @@
-# 🌍 Bagmati River Corridor LULC Change Analysis (2015–2024)
+# 🌍 Bagmati River Corridor LULC Change Analysis (2015-2024)
 
 ## Project Overview
 This project maps and analyzes land cover changes over a 9-year period (2015–2024) across the Bagmati River watershed in Nepal (~3,750 km²), stretching from Kathmandu down to Rautahat. This vital corridor faces intense, simultaneous pressure from rapid urban expansion, agricultural transformations, and climate-driven hydrological shifts.
